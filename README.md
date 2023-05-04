@@ -24,14 +24,49 @@
         border: none;
         cursor: pointer;
       }
+      #header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #fff;
+      }
+      #header h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+      #profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      #name {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+      }
+      #profession {
+        font-size: 14px;
+        margin: 0;
+      }
     </style>
   </head>
   <body>
-    <header>
-      <button class="button" onclick="showSection(1)">Section 1</button>
-      <button class="button" onclick="showSection(2)">Section 2</button>
-      <button class="button" onclick="showSection(3)">Section 3</button>
-      <button class="button" onclick="showSection(4)">Section 4</button>
+    <header id="header">
+      <div>
+        <img src="profile-pic.jpg" alt="Profile Picture" id="profile-pic">
+        <div>
+          <h1 id="name">Wascar Leonel</h1>
+          <p id="profession">Copywriter | Editor | Educator</p>
+        </div>
+      </div>
+      <div>
+        <button class="button" onclick="showSection(1)">Section 1</button>
+        <button class="button" onclick="showSection(2)">Section 2</button>
+        <button class="button" onclick="showSection(3)">Section 3</button>
+        <button class="button" onclick="showSection(4)">Section 4</button>
+      </div>
     </header>
     <section id="section1" class="active">
       <h2>Section 1</h2>
