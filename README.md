@@ -36,8 +36,8 @@
         margin: 0;
       }
       #profile-pic {
-        width: 50px;
-        height: 50px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         margin-right: 10px;
       }
