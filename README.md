@@ -55,7 +55,7 @@
   <body>
     <header id="header">
       <div>
-        <img src="https://img.freepik.com/free-photo/portrait-young-smiling-man_171337-11976.jpg" alt="Profile Picture" id="profile-pic">
+        <img src="profile-pic.jpg" alt="Profile Picture" id="profile-pic">
         <div>
           <h1 id="name">Wascar Leonel</h1>
           <p id="profession">Copywriter | Editor | Educator</p>
@@ -92,6 +92,8 @@
         // show selected section
         const sectionToShow = document.getElementById('section' + sectionNum);
         sectionToShow.classList.add('active');
+        // scroll to selected section
+        sectionToShow.scrollIntoView({behavior: 'smooth'});
       }
     </script>
   </body>
