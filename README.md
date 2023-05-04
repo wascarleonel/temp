@@ -11,6 +11,7 @@
         height: 500px;
         width: 100%;
         display: none;
+        background-color: white;
       }
       section.active {
         display: block;
