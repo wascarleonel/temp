@@ -63,7 +63,7 @@
         </div>
       </div>
       <div>
-        <button class="button" onclick="showSection(1)">Section 1</button>
+        <button class="button" onclick="https://www.google.com">Section 1</button>
         <button class="button" onclick="showSection(2)">Section 2</button>
         <button class="button" onclick="showSection(3)">Section 3</button>
         <button class="button" onclick="showSection(4)">Section 4</button>
