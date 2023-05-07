@@ -69,7 +69,7 @@
         <button class="button" onclick="showSection(4)">Section 4</button>
       </div>
     </header>
-    <section id="section1" class="active" height: 700px;>
+    <section id="section1" class="active" height = 700px>
       <h2>Section 1</h2>
       <p>This is the first section of my webpage.</p>
     </section>
